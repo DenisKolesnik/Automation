@@ -6,7 +6,7 @@ pipeline {
                 sh 'python --version'
 		sh 'pwd'
 		sh 'python'
-		sh 'print('hello')'
+		sh 'print'
 		sh 'exit()'
             }
         }
