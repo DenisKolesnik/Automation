@@ -4,6 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+		sh 'pwd'
+		sh 'python'
+		sh 'print('hello')'
+		sh 'exit()'
             }
         }
     }
